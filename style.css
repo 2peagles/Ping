@@ -2,7 +2,6 @@
 html{
     margin:0;
     padding:0;
-    /* height:100vh; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,8 +89,11 @@ footer p ,ul{
     font-size: 1rem;
     color:rgba(0, 0, 0, 0.8);
   }
+  input{
+    margin-bottom:1rem;
+  }
   button{
-    width:60vw;
+    width:58vw;
   }
     .img{
         height:200px;
