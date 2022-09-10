@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;700&display=swap');
+html{
+    margin:0;
+    padding:0;
+    height:100vh;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-family: 'Libre Franklin', sans-serif;
+}
+main{
+    padding:10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+ h6 {
+    color:hsl(0, 0%, 59%);
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding:0;
+    margin:10px 0px 20px;
+}
+
+h1{
+    color:hsl(0, 0%, 59%);
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin-bottom: 0px;
+}
+span{
+    font-weight: 700;
+    color:#000;
+}
+
+input{
+    margin-bottom: 2rem;
+    padding: 9px 20px;
+    border-radius: 5rem;
+    font-weight: 400;
+    border-color: rgba(150, 150, 150, 0.3);
+}
+input::placeholder {
+    font-weight: 400;
+    color:rgba(150, 150, 150, 0.5);
+}
+/* input:has(:invalid) {
+border-color:hsl(354, 100%, 66%);
+}
+input:has(:valid){
+    border-color:hsl(223, 100%, 88%);
+} */
+button{
+    color:white;
+    border:none;
+    padding:10px 30px;
+    border-radius:5rem;
+   background-color: hsl(223, 87%, 63%);
+   font-weight: 600;
+}
+ li{
+    display: inline-block;
+    color:hsl(223, 87%, 63%);
+    font-size: 1rem;
+    line-height: .5rem;
+    padding:.4rem;
+    margin:.5rem;
+    border:1px solid rgba(150, 150, 150, 0.3);
+    border-radius: 50%;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+footer p ,ul{
+    display: flex;
+    align-items: center;
+     justify-content:center;
+     color:hsl(0, 0%, 59%);
+     font-size: 1rem;
+     font-weight: 400;
+}
+@media screen and (max-width:450px){
+  h1{
+    font-size: 1.5rem;
+  }
+  h6{
+    font-size: 1rem;
+    color:rgba(0, 0, 0, 0.8);
+  }
+  button{
+    width:60vw;
+  }
+    .img{
+        height:200px;
+        margin-top:2rem;
+    }
+    footer{
+        bottom:0;
+        width:100%;
+        position: fixed;
+    }
+}
